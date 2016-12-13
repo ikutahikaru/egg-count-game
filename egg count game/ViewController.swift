@@ -12,11 +12,11 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var countDownLabel: UILabel!
     
-    var countNumber: Int = 0
+    var countNumber: Int = 1000000
     
     
     @IBAction func touchEgg(_ sender: UIButton) {
-        countNumber += 1
+        countNumber -= 1
         countDownLabel.text = String(countNumber)
     }
     
