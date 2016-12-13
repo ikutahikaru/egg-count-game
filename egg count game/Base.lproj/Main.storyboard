@@ -51,6 +51,7 @@
                     </view>
                     <connections>
                         <outlet property="countDownLabel" destination="1Q1-0s-68j" id="tFV-NE-6ub"/>
+                        <outlet property="explainLabel" destination="bu7-MC-Dpe" id="KGz-oL-XYs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

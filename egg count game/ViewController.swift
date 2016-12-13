@@ -11,14 +11,22 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var countDownLabel: UILabel!
+    @IBOutlet weak var explainLabel: UILabel!
+    
     
     var countNumber: Int = 1000000
+    
+    func congra (){
+        countNumber = 0
+        explainLabel.text = "congratslation!!!"
+    }
     
     
     @IBAction func touchEgg(_ sender: UIButton) {
         countNumber -= 1
         countDownLabel.text = String(countNumber)
     }
+    
     
     
     
