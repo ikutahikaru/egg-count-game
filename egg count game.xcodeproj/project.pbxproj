@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		338654F51DFFE18E00127FD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338654F41DFFE18E00127FD0 /* AppDelegate.swift */; };
+		338654F71DFFE18E00127FD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338654F61DFFE18E00127FD0 /* ViewController.swift */; };
+		338654FA1DFFE18E00127FD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338654F81DFFE18E00127FD0 /* Main.storyboard */; };
+		338654FC1DFFE18E00127FD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338654FB1DFFE18E00127FD0 /* Assets.xcassets */; };
+		338654FF1DFFE18E00127FD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338654FD1DFFE18E00127FD0 /* LaunchScreen.storyboard */; };
+		3386550A1DFFE18E00127FD0 /* egg_count_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338655091DFFE18E00127FD0 /* egg_count_gameTests.swift */; };
+		338655151DFFE18E00127FD0 /* egg_count_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338655141DFFE18E00127FD0 /* egg_count_gameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		338655061DFFE18E00127FD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 338654E91DFFE18E00127FD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 338654F01DFFE18E00127FD0;
+			remoteInfo = "egg count game";
+		};
+		338655111DFFE18E00127FD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 338654E91DFFE18E00127FD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 338654F01DFFE18E00127FD0;
+			remoteInfo = "egg count game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		338654F11DFFE18E00127FD0 /* egg count game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "egg count game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		338654F41DFFE18E00127FD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		338654F61DFFE18E00127FD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		338654F91DFFE18E00127FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		338654FB1DFFE18E00127FD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		338654FE1DFFE18E00127FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		338655001DFFE18E00127FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338655051DFFE18E00127FD0 /* egg count gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "egg count gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		338655091DFFE18E00127FD0 /* egg_count_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = egg_count_gameTests.swift; sourceTree = "<group>"; };
+		3386550B1DFFE18E00127FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338655101DFFE18E00127FD0 /* egg count gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "egg count gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		338655141DFFE18E00127FD0 /* egg_count_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = egg_count_gameUITests.swift; sourceTree = "<group>"; };
+		338655161DFFE18E00127FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		338654EE1DFFE18E00127FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338655021DFFE18E00127FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3386550D1DFFE18E00127FD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		338654E81DFFE18E00127FD0 = {
+			isa = PBXGroup;
+			children = (
+				338654F31DFFE18E00127FD0 /* egg count game */,
+				338655081DFFE18E00127FD0 /* egg count gameTests */,
+				338655131DFFE18E00127FD0 /* egg count gameUITests */,
+				338654F21DFFE18E00127FD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		338654F21DFFE18E00127FD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				338654F11DFFE18E00127FD0 /* egg count game.app */,
+				338655051DFFE18E00127FD0 /* egg count gameTests.xctest */,
+				338655101DFFE18E00127FD0 /* egg count gameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		338654F31DFFE18E00127FD0 /* egg count game */ = {
+			isa = PBXGroup;
+			children = (
+				338654F41DFFE18E00127FD0 /* AppDelegate.swift */,
+				338654F61DFFE18E00127FD0 /* ViewController.swift */,
+				338654F81DFFE18E00127FD0 /* Main.storyboard */,
+				338654FB1DFFE18E00127FD0 /* Assets.xcassets */,
+				338654FD1DFFE18E00127FD0 /* LaunchScreen.storyboard */,
+				338655001DFFE18E00127FD0 /* Info.plist */,
+			);
+			path = "egg count game";
+			sourceTree = "<group>";
+		};
+		338655081DFFE18E00127FD0 /* egg count gameTests */ = {
+			isa = PBXGroup;
+			children = (
+				338655091DFFE18E00127FD0 /* egg_count_gameTests.swift */,
+				3386550B1DFFE18E00127FD0 /* Info.plist */,
+			);
+			path = "egg count gameTests";
+			sourceTree = "<group>";
+		};
+		338655131DFFE18E00127FD0 /* egg count gameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				338655141DFFE18E00127FD0 /* egg_count_gameUITests.swift */,
+				338655161DFFE18E00127FD0 /* Info.plist */,
+			);
+			path = "egg count gameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		338654F01DFFE18E00127FD0 /* egg count game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 338655191DFFE18E00127FD0 /* Build configuration list for PBXNativeTarget "egg count game" */;
+			buildPhases = (
+				338654ED1DFFE18E00127FD0 /* Sources */,
+				338654EE1DFFE18E00127FD0 /* Frameworks */,
+				338654EF1DFFE18E00127FD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "egg count game";
+			productName = "egg count game";
+			productReference = 338654F11DFFE18E00127FD0 /* egg count game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		338655041DFFE18E00127FD0 /* egg count gameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3386551C1DFFE18E00127FD0 /* Build configuration list for PBXNativeTarget "egg count gameTests" */;
+			buildPhases = (
+				338655011DFFE18E00127FD0 /* Sources */,
+				338655021DFFE18E00127FD0 /* Frameworks */,
+				338655031DFFE18E00127FD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				338655071DFFE18E00127FD0 /* PBXTargetDependency */,
+			);
+			name = "egg count gameTests";
+			productName = "egg count gameTests";
+			productReference = 338655051DFFE18E00127FD0 /* egg count gameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3386550F1DFFE18E00127FD0 /* egg count gameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3386551F1DFFE18E00127FD0 /* Build configuration list for PBXNativeTarget "egg count gameUITests" */;
+			buildPhases = (
+				3386550C1DFFE18E00127FD0 /* Sources */,
+				3386550D1DFFE18E00127FD0 /* Frameworks */,
+				3386550E1DFFE18E00127FD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				338655121DFFE18E00127FD0 /* PBXTargetDependency */,
+			);
+			name = "egg count gameUITests";
+			productName = "egg count gameUITests";
+			productReference = 338655101DFFE18E00127FD0 /* egg count gameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		338654E91DFFE18E00127FD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Hikaru Ikuta";
+				TargetAttributes = {
+					338654F01DFFE18E00127FD0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JX28ZJ4H2E;
+						ProvisioningStyle = Automatic;
+					};
+					338655041DFFE18E00127FD0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JX28ZJ4H2E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 338654F01DFFE18E00127FD0;
+					};
+					3386550F1DFFE18E00127FD0 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JX28ZJ4H2E;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 338654F01DFFE18E00127FD0;
+					};
+				};
+			};
+			buildConfigurationList = 338654EC1DFFE18E00127FD0 /* Build configuration list for PBXProject "egg count game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 338654E81DFFE18E00127FD0;
+			productRefGroup = 338654F21DFFE18E00127FD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				338654F01DFFE18E00127FD0 /* egg count game */,
+				338655041DFFE18E00127FD0 /* egg count gameTests */,
+				3386550F1DFFE18E00127FD0 /* egg count gameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		338654EF1DFFE18E00127FD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338654FF1DFFE18E00127FD0 /* LaunchScreen.storyboard in Resources */,
+				338654FC1DFFE18E00127FD0 /* Assets.xcassets in Resources */,
+				338654FA1DFFE18E00127FD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338655031DFFE18E00127FD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3386550E1DFFE18E00127FD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		338654ED1DFFE18E00127FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338654F71DFFE18E00127FD0 /* ViewController.swift in Sources */,
+				338654F51DFFE18E00127FD0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		338655011DFFE18E00127FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3386550A1DFFE18E00127FD0 /* egg_count_gameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3386550C1DFFE18E00127FD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				338655151DFFE18E00127FD0 /* egg_count_gameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		338655071DFFE18E00127FD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 338654F01DFFE18E00127FD0 /* egg count game */;
+			targetProxy = 338655061DFFE18E00127FD0 /* PBXContainerItemProxy */;
+		};
+		338655121DFFE18E00127FD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 338654F01DFFE18E00127FD0 /* egg count game */;
+			targetProxy = 338655111DFFE18E00127FD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		338654F81DFFE18E00127FD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				338654F91DFFE18E00127FD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		338654FD1DFFE18E00127FD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				338654FE1DFFE18E00127FD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		338655171DFFE18E00127FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		338655181DFFE18E00127FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3386551A1DFFE18E00127FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JX28ZJ4H2E;
+				INFOPLIST_FILE = "egg count game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ikutahiiakru.egg-count-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3386551B1DFFE18E00127FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JX28ZJ4H2E;
+				INFOPLIST_FILE = "egg count game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ikutahiiakru.egg-count-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3386551D1DFFE18E00127FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JX28ZJ4H2E;
+				INFOPLIST_FILE = "egg count gameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ikutahiiakru.egg-count-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/egg count game.app/egg count game";
+			};
+			name = Debug;
+		};
+		3386551E1DFFE18E00127FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JX28ZJ4H2E;
+				INFOPLIST_FILE = "egg count gameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ikutahiiakru.egg-count-gameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/egg count game.app/egg count game";
+			};
+			name = Release;
+		};
+		338655201DFFE18E00127FD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JX28ZJ4H2E;
+				INFOPLIST_FILE = "egg count gameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ikutahiiakru.egg-count-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "egg count game";
+			};
+			name = Debug;
+		};
+		338655211DFFE18E00127FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JX28ZJ4H2E;
+				INFOPLIST_FILE = "egg count gameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ikutahiiakru.egg-count-gameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "egg count game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		338654EC1DFFE18E00127FD0 /* Build configuration list for PBXProject "egg count game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338655171DFFE18E00127FD0 /* Debug */,
+				338655181DFFE18E00127FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		338655191DFFE18E00127FD0 /* Build configuration list for PBXNativeTarget "egg count game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3386551A1DFFE18E00127FD0 /* Debug */,
+				3386551B1DFFE18E00127FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3386551C1DFFE18E00127FD0 /* Build configuration list for PBXNativeTarget "egg count gameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3386551D1DFFE18E00127FD0 /* Debug */,
+				3386551E1DFFE18E00127FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3386551F1DFFE18E00127FD0 /* Build configuration list for PBXNativeTarget "egg count gameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338655201DFFE18E00127FD0 /* Debug */,
+				338655211DFFE18E00127FD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 338654E91DFFE18E00127FD0 /* Project object */;
+}
