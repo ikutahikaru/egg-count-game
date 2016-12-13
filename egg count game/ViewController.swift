@@ -9,11 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var countDownLabel: UILabel!
     
+    var countNumber: Int = 0
+    
+    
     @IBAction func touchEgg(_ sender: UIButton) {
+        countNumber += 1
+        countDownLabel.text = String(countNumber)
     }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
